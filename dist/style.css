@@ -596,6 +596,11 @@ video {
   margin-right: 4rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mt-11 {
   margin-top: 2.75rem;
 }
@@ -608,8 +613,44 @@ video {
   margin-top: 2.5rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .h-52 {
@@ -634,6 +675,30 @@ video {
 
 .h-\[15rem\] {
   height: 15rem;
+}
+
+.h-\[5v\] {
+  height: 5v;
+}
+
+.h-\[5vh\] {
+  height: 5vh;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
+}
+
+.h-\[vh\] {
+  height: vh;
+}
+
+.h-\[70vh\] {
+  height: 70vh;
+}
+
+.h-\[90vh\] {
+  height: 90vh;
 }
 
 .w-\[\] {
@@ -728,12 +793,128 @@ video {
   width: 29vw;
 }
 
+.w-\[3\] {
+  width: 3;
+}
+
+.w-\[35\] {
+  width: 35;
+}
+
+.w-\[vw\] {
+  width: vw;
+}
+
+.w-\[25vw\] {
+  width: 25vw;
+}
+
+.w-\[2vw\] {
+  width: 2vw;
+}
+
+.w-\[27vw\] {
+  width: 27vw;
+}
+
+.w-\[1rem\] {
+  width: 1rem;
+}
+
+.w-\[18rem\] {
+  width: 18rem;
+}
+
+.w-\[21rem\] {
+  width: 21rem;
+}
+
+.w-\[14rem\] {
+  width: 14rem;
+}
+
+.w-\[17rem\] {
+  width: 17rem;
+}
+
+.w-\[17\.7rem\] {
+  width: 17.7rem;
+}
+
+.shrink {
+  flex-shrink: 1;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-x-visible {
+  overflow-x: visible;
+}
+
 .text-wrap {
   text-wrap: wrap;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .bg-black {
@@ -750,6 +931,11 @@ video {
   background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#e2f6fe\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 246 254 / var(--tw-bg-opacity, 1));
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -758,6 +944,31 @@ video {
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .text-center {
@@ -788,8 +999,25 @@ video {
   line-height: 2rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-\[\] {
@@ -820,6 +1048,61 @@ video {
   color: rgb(196 89 241 / var(--tw-text-opacity, 1));
 }
 
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+}
+
+.text-\[1\] {
+  color: 1;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-\[20vw\] {
+    width: 20vw;
+  }
 }
