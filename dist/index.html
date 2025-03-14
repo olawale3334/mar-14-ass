@@ -5,24 +5,233 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="/dist/style.css">
-    <title>Document</title>
+<link rel="stylesheet" href="/dist/style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<title>assigment</title>
 </head>
-<body class="">
+<body class="font-sans">
+    <header>
+        <!-- <div class="flex ">
+            <span>New</span>
+            <span>Build a dark style website and sharpen your skills in Nuxt, Tailwind, and GSAP</span>
+            <a href="#">Watch</a>
+        </div> -->
+        <section class="mx-auto p-4 flex fixed flex-row justify-around items-center gap-3  border-b top-0 z-10 w-full bg-white text-neutral-900">
+            <h1 class="text-xl font-medium"> <a href="">Prismic</a></h1>
+            <div>
+                <button class="text-3xl sm:hidden focus:outline">&#9776;</button>
+                <nav class="hidden sm:block space-x-6 ml-8" aria-label="main">
+                    <a href="" class="hover:opacity-90">Product <i class='bx bx-chevron-down'></i></a>
+                    <a href="" class="hover:opacity-90">Solutions <i class='bx bx-chevron-down'></i></a>
+                    <a href="" class="hover:opacity-90">Show case</a>
+                    <a href="" class="hover:opacity-90">Resources <i class='bx bx-chevron-down'></i></a>
+                    <a href="" class="hover:opacity-90">Enterprise</a>
+                    <a href="" class="hover:opacity-90">Pricing</a>
+                </nav>
+            </div>
+            <div class="hidden sm:block space-x-4">
+                <a href="#" class="hover:opacity-90">Login</a>
+                <a href="#" class="hover:opacity-90">Request a demo</a>
+                <button class="bg-black text-white rounded-md text-sm text-center px-3 py-2 hover:bg-neutral-400 border border-black">Get Started</button>
+            </div> 
+        </section>
+        <div class="sm:flex-col">
+            <figure>
+                <img src="img/6583013b531ac2845a26d231_use-cases-hero-new.svg" alt="" class="absolute top-0 sm:block hidden">
+            </figure>
+            <div class="flex flex-col justify-center items-center text-center mt-48 text-black">
+                <span class="text-purple-700 py-1 text-xl">Build a marketing website</span>
+                <h1 class="text-5xl font-bold py-5">Grow your marketing <br> website by releasing fast</h1>
+                <p class="text-neutral-400">Get a custom page builder configured to your needs. Create on-brand pages <br>  independently to increase conversions and engagement.</p>
+                <button class="bg-black mt-6  text-white rounded-md text-sm text-center px-5 py-3 hover:bg-neutral-400 border border-black relative">Get Started</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="mt-28 bg-purple-100 py-20">
+            <div class="ml-8 pb-3 text-2xl font-bold">
+                <span>See who else is growing their marketing website with Prismic</span>
+            </div>
+            <div class="flex flex-row justify-between mx-8">
+                <span>
+                    <svg width="87" height="25" viewBox="0 0 87 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full w-full max-h-8 max-w-32"><path fill-rule="evenodd" clip-rule="evenodd" d="M80.7615 0C82.4457 0 83.8137 1.29825 83.8137 2.98125C83.8137 4.67438 82.4457 5.9625 80.7615 5.9625C79.0785 5.9625 77.7094 4.66425 77.7094 2.98125C77.7094 1.28813 79.0785 0 80.7615 0ZM21.7823 0.162V6.5925H17.6648V3.98587H7.75917V10.4242H16.7637V14.076H7.75917V20.5763H17.6659V17.9696H21.7834V24.4091H1.0148V20.5763H3.2963V3.98587H1.01367V0.162H21.7823ZM36.3038 17.2699L42.9469 0.162H45.4816L35.8482 24.5205H33.1909L23.5069 0.162H29.7225L36.3038 17.2699ZM50.7556 11.8339V3.123H63.7155C65.8845 3.123 67.122 3.48863 67.9635 4.25925C68.7139 4.94888 69.1403 5.94225 69.1403 7.27087C69.1403 8.64 68.7657 9.76612 68.004 10.5671C67.2132 11.3985 66.0274 11.844 63.7966 11.844H50.7556V11.8339ZM74.9509 24.4091L66.3818 14.5114C70.0223 14.1368 72.7808 11.4998 72.7808 7.23038C72.7808 5.07038 72.1317 3.41663 70.9043 2.26125C69.3934 0.8325 67.2042 0.162 63.7167 0.162H47.2253V24.4091H50.7544V14.796H62.4465L70.6096 24.4091H74.9509ZM83.4188 21.1433C83.4188 22.563 84.0072 23.1413 85.3144 23.8005V24.408H76.4719V23.8005C77.7803 23.1514 78.3687 22.563 78.3687 21.1433V11.8642C78.3687 10.6076 78.1459 9.918 76.4719 8.802V8.1945H83.4188V21.1433Z" fill="currentColor"></path></svg>
+                </span>
+                <span>    
+                    <svg width="140" height="32" viewBox="0 0 140 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full w-full max-h-8 max-w-32"><g clip-path="url(#clip0_909_11)"><path d="M42.0001 11.712C42.0001 11.732 41.9951 11.753 41.9851 11.772C41.9753 11.7912 41.9613 11.808 41.9441 11.821C41.9266 11.8345 41.9063 11.8441 41.8848 11.8491C41.8632 11.8541 41.8408 11.8544 41.8191 11.85C41.2354 11.752 40.644 11.7068 40.0521 11.715C36.6871 11.715 33.9811 14.221 33.9811 18.058V29.858C33.981 29.8768 33.977 29.8954 33.9694 29.9125C33.9619 29.9297 33.9509 29.9452 33.9371 29.958C33.9081 29.9851 33.8698 30.0001 33.8301 30H30.1501C30.1108 29.9999 30.0729 29.9849 30.0441 29.958C30.0304 29.9452 30.0195 29.9297 30.0119 29.9125C30.0043 29.8953 30.0003 29.8768 30.0001 29.858V8.30801C30.0001 8.27001 30.0161 8.23401 30.0441 8.20801C30.0726 8.18137 30.1101 8.16639 30.1491 8.16601H33.8331C33.8731 8.16601 33.9121 8.18101 33.9401 8.20701C33.9539 8.21981 33.9649 8.23528 33.9724 8.25247C33.98 8.26967 33.984 8.28823 33.9841 8.30701V11.275C33.9841 11.307 33.9941 11.338 34.0151 11.362C34.036 11.387 34.0644 11.4046 34.0961 11.412C34.1284 11.4199 34.1623 11.4175 34.1931 11.405C34.2233 11.3933 34.2486 11.3718 34.2651 11.344C35.3851 9.40401 37.5241 8.00001 40.4071 8.00001C40.9601 8.00001 41.4801 8.03201 41.8671 8.07001C41.9041 8.07301 41.9381 8.09001 41.9631 8.11701C41.9871 8.14301 42.0011 8.17701 42.0001 8.21201V11.712ZM53.2851 26.66C56.2171 26.66 58.0011 24.794 58.6591 22.135C58.664 22.1147 58.6732 22.0957 58.6862 22.0792C58.6991 22.0628 58.7155 22.0495 58.7341 22.04C58.7527 22.0307 58.7731 22.0256 58.7939 22.0253C58.8147 22.0249 58.8353 22.0293 58.8541 22.038L61.9161 23.478C61.9481 23.493 61.9731 23.518 61.9881 23.551C62.0024 23.5835 62.0045 23.6201 61.9941 23.654C60.9141 27.27 57.7741 30 53.2851 30C47.2061 30 43.0001 25.3 43.0001 18.5C43.0001 11.65 47.2061 7.00001 53.2851 7.00001C57.7751 7.00001 60.8451 9.60501 61.9121 13.223C61.9216 13.256 61.9195 13.2913 61.9061 13.323C61.8929 13.3549 61.8688 13.3812 61.8381 13.397L58.8551 14.912C58.8267 14.9258 58.7944 14.9296 58.7635 14.9227C58.7326 14.9158 58.705 14.8986 58.6851 14.874C58.6714 14.8577 58.6615 14.8386 58.6561 14.818C57.9971 12.2 56.2201 10.301 53.2861 10.301C49.4131 10.301 46.7511 13.434 46.7511 18.499C46.7511 23.531 49.4131 26.66 53.2851 26.66ZM65.0001 23.634C65.0001 19.22 68.2751 17.396 73.0041 16.377L78.0291 15.297C78.0609 15.2903 78.0892 15.2726 78.1091 15.247C78.1288 15.2208 78.1393 15.1888 78.1391 15.156V14.34C78.1391 11.794 76.8051 10.352 73.9751 10.352C71.3561 10.352 69.7881 11.62 69.1201 13.994C69.1109 14.0294 69.0883 14.0599 69.0571 14.079C69.0423 14.0881 69.0258 14.0941 69.0086 14.0966C68.9915 14.0992 68.974 14.0983 68.9571 14.094L65.7881 13.233C65.7601 13.2247 65.7351 13.2082 65.7166 13.1855C65.698 13.1629 65.6867 13.1352 65.6841 13.106C65.6821 13.086 65.6841 13.066 65.6891 13.047C66.7381 9.51701 69.8301 7.00001 74.0961 7.00001C78.8271 7.00001 81.7361 9.41801 81.7361 14.171V24.991C81.7361 26.376 82.5181 26.861 83.8341 26.598C83.854 26.5935 83.8746 26.5937 83.8944 26.5985C83.9142 26.6034 83.9326 26.6128 83.9481 26.626C83.9641 26.6398 83.977 26.6568 83.986 26.676C83.9949 26.6951 83.9998 26.7159 84.0001 26.737V29.486C83.9983 29.5213 83.9849 29.555 83.9621 29.582C83.9396 29.6085 83.9084 29.6262 83.8741 29.632C80.8571 30.002 79.0641 29.277 78.5281 27.384C78.5221 27.3587 78.5093 27.3356 78.4911 27.317C78.474 27.2987 78.4519 27.2858 78.4276 27.28C78.4032 27.2741 78.3777 27.2755 78.3541 27.284C78.3305 27.2925 78.3097 27.3074 78.2941 27.327C76.9701 28.947 74.6981 30 71.9531 30C68.1121 29.998 65.0001 27.621 65.0001 23.634ZM78.1401 18.244L74.0151 19.178C70.7811 19.857 68.5981 20.791 68.5981 23.464C68.5981 25.627 70.0961 26.901 72.3991 26.901C75.5121 26.901 78.1391 24.906 78.1391 22.063V18.243L78.1401 18.244ZM86.0001 18.806C86.0001 12.675 89.4581 7.61401 95.5001 7.61401C98.3511 7.61401 100.653 8.87901 101.995 10.765C102.013 10.7895 102.038 10.8076 102.066 10.8168C102.095 10.826 102.126 10.8257 102.154 10.816C102.182 10.8067 102.207 10.7887 102.224 10.7646C102.241 10.7406 102.25 10.7116 102.25 10.682V0.14001C102.25 0.10301 102.265 0.0670101 102.291 0.0410101C102.318 0.0146367 102.354 -8.59562e-05 102.392 1.01007e-05H105.858C105.877 -0.000123288 105.895 0.00343265 105.912 0.0104712C105.929 0.0175098 105.945 0.0278906 105.958 0.0410101C105.972 0.0539776 105.982 0.0695239 105.989 0.0867109C105.997 0.103898 106 0.122369 106 0.14101V29.407C106 29.4255 105.996 29.4438 105.989 29.4608C105.982 29.4778 105.971 29.4932 105.958 29.506C105.945 29.5191 105.929 29.5295 105.912 29.5365C105.895 29.5436 105.877 29.5471 105.858 29.547H102.392C102.354 29.5471 102.318 29.5324 102.291 29.506C102.265 29.4794 102.25 29.4434 102.25 29.406V26.896C102.251 26.8658 102.242 26.8362 102.225 26.8114C102.208 26.7867 102.183 26.7682 102.154 26.7588C102.125 26.7493 102.094 26.7494 102.066 26.759C102.037 26.7686 102.012 26.7872 101.995 26.812C100.653 28.734 98.3511 30 95.5001 30C89.4581 30 86.0001 24.896 86.0001 18.806ZM96.1621 10.865C92.0801 10.865 89.7871 14.157 89.7871 18.806C89.7871 23.416 92.0801 26.749 96.1621 26.749C99.2501 26.749 102.329 24.526 102.329 19.582V18.057C102.338 13.045 99.2501 10.865 96.1621 10.865ZM115.849 9.00001H112.152C112.068 9.00001 112 9.06301 112 9.14001V29.86C112 29.937 112.068 30 112.152 30H115.849C115.932 30 116 29.937 116 29.86V9.14001C116 9.06301 115.932 9.00001 115.849 9.00001ZM120 23.634C120 19.22 123.275 17.396 128.004 16.377L133.029 15.297C133.061 15.2902 133.089 15.2725 133.108 15.247C133.128 15.2208 133.139 15.189 133.14 15.156V14.34C133.14 11.794 131.805 10.352 128.975 10.352C126.356 10.352 124.78 11.62 124.12 13.994C124.111 14.0294 124.088 14.0598 124.057 14.079C124.042 14.0882 124.026 14.0943 124.008 14.0968C123.991 14.0994 123.973 14.0985 123.956 14.094L120.788 13.233C120.77 13.2278 120.752 13.2189 120.738 13.2069C120.723 13.1948 120.71 13.1799 120.701 13.163C120.682 13.1273 120.678 13.0858 120.689 13.047C121.738 9.51701 124.83 7.00001 129.096 7.00001C133.827 7.00001 136.736 9.41801 136.736 14.171V24.991C136.736 26.376 137.518 26.861 138.834 26.598C138.854 26.5934 138.875 26.5935 138.894 26.5984C138.914 26.6033 138.933 26.6127 138.948 26.626C138.964 26.6395 138.978 26.6565 138.987 26.6757C138.996 26.6949 139 26.7158 139 26.737V29.486C138.998 29.5213 138.985 29.5551 138.962 29.582C138.94 29.6084 138.908 29.6261 138.874 29.632C135.857 30.002 134.064 29.277 133.528 27.384C133.522 27.3589 133.509 27.3358 133.491 27.317C133.478 27.3034 133.463 27.2928 133.445 27.2859C133.428 27.2789 133.409 27.2758 133.39 27.2768C133.372 27.2777 133.353 27.2827 133.337 27.2914C133.32 27.3 133.306 27.3122 133.294 27.327C131.971 28.947 129.698 30 126.953 30C123.113 29.998 120 27.621 120 23.634ZM133.14 18.244L129.015 19.178C125.781 19.857 123.598 20.791 123.598 23.464C123.598 25.627 125.096 26.901 127.399 26.901C130.512 26.901 133.14 24.906 133.14 22.063V18.244ZM115.674 4.88601C115.289 4.50013 115.073 3.97717 115.073 3.43201V2.56701C115.073 2.02201 115.289 1.50001 115.674 1.11401L115.926 0.86201C115.949 0.839584 115.967 0.812695 115.979 0.78301C115.992 0.753324 115.998 0.721319 115.998 0.68901C115.998 0.656701 115.992 0.624696 115.979 0.59501C115.967 0.564968 115.949 0.537729 115.926 0.51501L115.483 0.0730101C115.449 0.0386246 115.405 0.0151575 115.357 0.00555121C115.31 -0.0040551 115.26 0.000626868 115.215 0.0190101C115.186 0.0318423 115.159 0.0501675 115.136 0.0730101L114.884 0.32401C114.499 0.708979 113.977 0.92547 113.432 0.92601H112.567C112.023 0.925315 111.501 0.708828 111.116 0.32401L110.863 0.0730101C110.829 0.0386246 110.785 0.0151575 110.737 0.00555121C110.69 -0.0040551 110.64 0.000626868 110.595 0.0190101C110.566 0.0318423 110.539 0.0501675 110.516 0.0730101L110.071 0.51601C110.027 0.562554 110.002 0.624536 110.002 0.68901C110.002 0.753485 110.027 0.815466 110.071 0.86201L110.324 1.11401C110.709 1.50001 110.925 2.02201 110.926 2.56701V3.43201C110.926 3.9772 110.709 4.49999 110.324 4.88601L110.071 5.13201C110.026 5.1786 110.001 5.2408 110.001 5.30551C110.001 5.37022 110.026 5.43242 110.071 5.47901L110.516 5.92401C110.539 5.94684 110.566 5.96495 110.596 5.97731C110.625 5.98967 110.657 5.99603 110.69 5.99603C110.722 5.99603 110.754 5.98967 110.784 5.97731C110.813 5.96495 110.84 5.94684 110.863 5.92401L111.116 5.67601C111.501 5.29061 112.024 5.07407 112.569 5.07401H113.433C113.703 5.07408 113.97 5.12729 114.219 5.23058C114.468 5.33388 114.694 5.48524 114.884 5.67601L115.138 5.92901C115.184 5.97481 115.246 6.00053 115.311 6.00053C115.376 6.00053 115.438 5.97481 115.484 5.92901L115.927 5.48401C115.951 5.46155 115.969 5.43452 115.982 5.40459C115.994 5.37466 116.001 5.34247 116 5.31001C116 5.27772 115.994 5.24572 115.981 5.21597C115.969 5.18622 115.95 5.15935 115.927 5.13701L115.674 4.88601ZM15.5831 1.01007e-05H11.4231C11.3947 -0.000336776 11.3668 0.0082585 11.3435 0.0245845C11.3202 0.0409104 11.3025 0.0641438 11.2931 0.0910101L0.0101309 29.807C-0.00204746 29.8395 -0.00207568 29.8753 0.0100514 29.9078C0.0221785 29.9404 0.0456447 29.9674 0.0761309 29.984C0.0958851 29.9944 0.117828 29.9999 0.140131 30H3.78513C3.81367 30.0001 3.84155 29.9915 3.86498 29.9752C3.88842 29.9589 3.90628 29.9358 3.91613 29.909L6.84213 22.103L8.15613 18.593L13.2871 4.86001C13.2972 4.83328 13.3151 4.8102 13.3384 4.79379C13.3618 4.77738 13.3896 4.76839 13.4181 4.76801C13.447 4.76776 13.4751 4.77649 13.4988 4.79297C13.5224 4.80945 13.5404 4.83288 13.5501 4.86001L18.7621 18.593L20.0771 22.103L23.0431 29.909C23.0532 29.9355 23.0709 29.9583 23.0941 29.9745C23.1173 29.9908 23.1448 29.9996 23.1731 30H26.8601C26.8829 29.9998 26.9053 29.994 26.9253 29.9832C26.9453 29.9724 26.9624 29.9569 26.9751 29.938C26.988 29.919 26.9962 29.8972 26.999 29.8745C27.0018 29.8517 26.9991 29.8285 26.9911 29.807L15.7141 0.0900101C15.7038 0.0636551 15.6857 0.0410032 15.6624 0.0249655C15.6391 0.00892785 15.6115 0.000237093 15.5831 1.01007e-05Z" fill="currentColor"></path><path d="M16.6749 21.8771C16.4844 21.6868 16.3332 21.4607 16.2301 21.2119C16.127 20.9631 16.0739 20.6964 16.0739 20.4271V19.5641C16.0739 19.0201 16.2899 18.4981 16.6749 18.1131L16.9289 17.8621C16.9747 17.816 17.0005 17.7536 17.0005 17.6886C17.0005 17.6236 16.9747 17.5612 16.9289 17.5151L16.4839 17.0711C16.4376 17.0255 16.3753 16.9999 16.3104 16.9999C16.2454 16.9999 16.1831 17.0255 16.1369 17.0711L15.8939 17.3241C15.5079 17.7091 14.9859 17.9241 14.4409 17.9241H13.5609C13.0165 17.9244 12.4942 17.7086 12.1089 17.3241L11.8559 17.0711C11.8098 17.0253 11.7474 16.9995 11.6824 16.9995C11.6173 16.9995 11.555 17.0253 11.5089 17.0711L11.0719 17.5241C11.0489 17.5467 11.0307 17.5737 11.0183 17.6034C11.0059 17.6331 10.9995 17.6649 10.9995 17.6971C10.9995 17.7293 11.0059 17.7612 11.0183 17.7909C11.0307 17.8206 11.0489 17.8475 11.0719 17.8701L11.3239 18.1211C11.7089 18.5061 11.9259 19.0281 11.9259 19.5721V20.4361C11.9258 20.7055 11.8726 20.9723 11.7693 21.2211C11.666 21.4699 11.5146 21.6959 11.3239 21.8861L11.0719 22.1391C11.0489 22.1617 11.0307 22.1887 11.0183 22.2184C11.0059 22.2481 10.9995 22.2799 10.9995 22.3121C10.9995 22.3443 11.0059 22.3762 11.0183 22.4059C11.0307 22.4356 11.0489 22.4625 11.0719 22.4851L11.5159 22.9281C11.5386 22.9509 11.5657 22.9691 11.5954 22.9814C11.6252 22.9938 11.6571 23.0001 11.6894 23.0001C11.7216 23.0001 11.7535 22.9938 11.7833 22.9814C11.8131 22.9691 11.8401 22.9509 11.8629 22.9281L12.1159 22.6761C12.498 22.2899 13.0176 22.0709 13.5609 22.0671H14.4259C14.9709 22.0671 15.4929 22.2831 15.8789 22.6671L16.1309 22.9191C16.1648 22.9539 16.2084 22.9776 16.256 22.9873C16.3037 22.9969 16.3531 22.992 16.3979 22.9731C16.4279 22.9607 16.4551 22.9423 16.4779 22.9191L16.9219 22.4771C16.9677 22.431 16.9935 22.3686 16.9935 22.3036C16.9935 22.2386 16.9677 22.1762 16.9219 22.1301L16.6749 21.8771Z" fill="currentColor"></path></g><defs><clipPath id="clip0_909_11"><rect width="140" height="32" fill="currentColor"></rect></clipPath></defs></svg>
+                </span>
+                <span>
+                    <svg width="434" height="120" viewBox="0 0 434 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full w-full max-h-8 max-w-32"><path d="M396.454 47.7473V95.0075L396.61 95.0056C399.696 71.1324 413.426 55.5293 434 48.1016V0C410.343 4.24416 396.454 19.6291 396.454 47.7473Z" fill="currentColor"></path><path d="M314.851 34.0334C311.989 33.2307 309.124 32.8294 306.651 32.8294C300.013 32.8294 296.108 36.0413 297.149 46.0822V48.3582H314.851V63.2124H297.149V118.374H278.667V63.2124H251.711V118.374H233.227V63.2124H225.157V48.3582H233.227V43.4047C233.227 23.5913 245.463 16.8974 257.698 16.8974C261.994 16.8974 266.289 17.7017 269.413 18.7722V34.0334C266.549 33.2307 263.685 32.8294 261.213 32.8294C254.574 32.8294 250.669 36.0413 251.711 46.0822V48.3582H278.667V43.4047C278.667 23.5913 290.902 16.8974 303.138 16.8974C307.433 16.8974 311.728 17.7017 314.851 18.7722V34.0334Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M72.4746 83.5675C72.4746 62.5486 87.0541 46.8855 107.619 46.8855C128.316 46.8855 143.544 61.2101 142.633 89.3239H90.9592C91.8691 97.8912 99.2893 104.05 108.791 104.05C116.861 104.05 122.457 100.167 125.191 94.679L138.951 102.375C133.508 112.567 122.057 119.713 108.66 119.713C87.5741 119.713 72.4746 105.254 72.4746 83.5675ZM107.619 62.1474C98.3785 62.1474 91.4791 67.904 90.8283 76.0696H123.89C123.5 67.904 116.861 62.1474 107.619 62.1474Z" fill="currentColor"></path><path d="M20.0453 48.3586C31.8905 82.0944 35.4048 92.9386 36.9673 100.837C38.2681 92.0011 41.3924 81.4247 52.5858 48.3579H72.2412L46.2082 118.374H27.4646L0 48.3586H20.0453Z" fill="currentColor"></path><path d="M216.826 48.3591H198.343V118.375H216.826V48.3591Z" fill="currentColor"></path><path d="M170.294 69.8133V67.0793L168.283 48.3591H152.201V118.375H170.294V90.0021C170.294 75.2019 180.229 66.0233 191.131 66.0233V47.5557C178.331 48.8658 170.294 56.4452 170.294 69.8133Z" fill="currentColor"></path><path d="M198.194 23.0679H216.975V38.3061H198.194V23.0679Z" fill="currentColor"></path><path d="M389.88 120L352.334 88.1689V25.036L389.88 56.8671V120Z" fill="currentColor"></path></svg>   
+                </span>
+                <span>
+                    <svg width="105" height="32" viewBox="0 0 105 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full w-full max-h-8 max-w-32"><path fill-rule="evenodd" clip-rule="evenodd" d="M49.9213 7.48787C52.468 7.48787 54.724 8.7676 56.1418 10.7844V0H59.0423V24.0002H56.1418V21.2156C54.724 23.2363 52.468 24.5121 49.9213 24.5121C45.1514 24.5121 41.123 20.7682 41.123 16.0005C41.123 11.2328 45.1514 7.48787 49.9213 7.48787ZM49.9213 21.9517C53.692 21.9517 56.1418 19.424 56.1418 16.0005C56.1418 12.577 53.692 10.0483 49.9213 10.0483C46.5702 10.0483 44.0234 12.448 44.0234 16.0005C44.0234 19.5529 46.5702 21.9517 49.9213 21.9517ZM36.2891 10.7843C34.8713 8.76752 32.6153 7.48779 30.0695 7.48779C25.2987 7.48779 21.2703 11.2327 21.2703 16.0004C21.2703 20.7681 25.2987 24.5121 30.0695 24.5121C32.5833 24.5121 34.8355 23.2362 36.2891 21.2156V24.0002H39.1896V7.99969H36.2891V10.7843ZM36.2891 16.0004C36.2891 19.3922 33.8073 21.9516 30.0695 21.9516C26.7175 21.9516 24.1707 19.5529 24.1707 16.0004C24.1707 12.448 26.7175 10.0482 30.0695 10.0482C33.8402 10.0482 36.2891 12.5759 36.2891 16.0004ZM0 15.5818V16.4478C0.529481 16.4479 1.05375 16.5517 1.54282 16.7531C2.0319 16.9545 2.47621 17.2497 2.85034 17.6217C3.22446 17.9937 3.52108 18.4353 3.72324 18.9212C3.92539 19.4071 4.02911 19.9277 4.02848 20.4535H4.83475C4.83501 19.3927 5.25952 18.3755 6.01495 17.6254C6.77038 16.8753 7.79489 16.4538 8.86323 16.4536V15.5876C8.33375 15.5875 7.80948 15.4837 7.3204 15.2823C6.83133 15.0809 6.38702 14.7858 6.01289 14.4137C5.63876 14.0417 5.34214 13.6002 5.13999 13.1143C4.93784 12.6284 4.83412 12.1077 4.83475 11.582H4.02848C4.02822 12.6427 3.60371 13.6599 2.84828 14.41C2.09285 15.1601 1.06834 15.5816 0 15.5818ZM10.9574 10.08H4.02848V7.51953H10.9574C15.8241 7.51953 19.6598 11.3289 19.6598 16.0004C19.6598 20.6719 15.8241 24.4803 10.9574 24.4803H6.92894V31.9999H4.02848V21.9199H10.9574C14.3424 21.9199 16.7593 19.5211 16.7593 16.0004C16.7593 12.4797 14.3415 10.08 10.9574 10.08ZM76.3185 10.7844C74.8998 8.7676 72.6437 7.48787 70.098 7.48787C65.3281 7.48787 61.2997 11.2328 61.2997 16.0005C61.2997 20.7682 65.3281 24.5121 70.098 24.5121C72.6437 24.5121 74.8998 23.2363 76.3185 21.2156V24.0002H79.219V0H76.3185V10.7844ZM76.3185 16.0005C76.3185 19.424 73.8687 21.9517 70.098 21.9517C66.7459 21.9517 64.2001 19.5529 64.2001 16.0005C64.2001 12.448 66.7459 10.0483 70.098 10.0483C73.8687 10.0483 76.3185 12.577 76.3185 16.0005ZM82.116 24.0002V0H85.0175V24.0002H82.116ZM104.001 17.1214C104.001 11.8408 101.326 7.52051 95.7513 7.52051C90.8846 7.52051 87.1139 11.3943 87.1139 16.0014C87.1139 20.6084 90.8846 24.4813 95.7513 24.4813C99.6189 24.4813 102.486 22.0488 103.582 19.5846H100.456C99.2962 21.3445 97.7496 22.2413 95.7513 22.2413C92.8508 22.2413 90.5299 20.2245 90.0793 17.1214H104.001ZM95.7513 9.76052C98.8446 9.76052 101.101 12.2565 101.101 14.8814H90.0793C90.5299 11.7811 92.8508 9.76052 95.7513 9.76052Z" fill="currentColor"></path></svg>
+                </span>
+                <span>
+    
+                    <svg width="100" height="30" viewBox="0 0 100 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full w-full max-h-8 max-w-32"><path d="M32.5 10.5H35.1L37.7 16.5L40.4 10.5H43L36.6 24.4H34L36.4 19.5L32.5 10.5ZM52.9 15.2C52.9 18 50.7 20.3 47.9 20.3C45 20.3 42.9 18.1 42.9 15.2C42.9 12.4 45.1 10.2 48 10.2C50.7 10.1 52.9 12.4 52.9 15.2V15.2ZM45.4 15.2C45.4 16.9 46.4 18.1 48 18.1C49.5 18.1 50.6 16.9 50.6 15.2C50.6 13.5 49.6 12.4 48 12.4C46.4 12.3 45.4 13.5 45.4 15.2ZM60.6 19.4C59.9 20 59.3 20.2 58.4 20.2C57.3 20.2 56.2 19.7 55.5 18.9C54.8 18.1 54.5 17.1 54.5 15.5V10.4H56.9V15.3C56.9 16.5 57 17 57.4 17.4C57.7 17.7 58.1 17.9 58.7 17.9C59.4 17.9 59.9 17.7 60.3 17.2C60.6 16.8 60.7 16.2 60.7 15V10.3H63.1V19.7H60.7V19.4H60.6ZM69.8 13.3C69.3 12.5 68.9 12.3 68.4 12.3C67.8 12.3 67.4 12.6 67.4 13.1C67.4 13.5 67.5 13.6 68.6 14L69.5 14.3C71.1 14.9 71.8 15.7 71.8 17C71.8 18.8 70.3 20.2 68.3 20.2C67.1 20.2 66 19.7 65.4 18.8C65.1 18.4 64.9 18.1 64.7 17.3L66.7 16.5C67.3 17.7 67.7 18 68.4 18C69 18 69.5 17.6 69.5 17C69.5 16.6 69.3 16.4 68.3 16.1L67.3 15.7C65.9 15.2 65.2 14.3 65.2 13.1C65.2 11.4 66.6 10.1 68.5 10.1C70 10.1 71 10.8 71.8 12.3L69.8 13.3V13.3ZM76.1 7.2C76.1 8 75.4 8.7 74.6 8.7C73.7 8.7 73.1 8 73.1 7.2C73.1 6.4 73.8 5.7 74.7 5.7C75.4 5.7 76.1 6.4 76.1 7.2V7.2ZM75.8 19.9H73.4V10.5H75.8V19.9ZM84.8 19.3C83.8 20 83.2 20.2 82.2 20.2C79.5 20.2 77.3 17.9 77.3 15.1C77.3 12.3 79.5 10.1 82.2 10.1C83.2 10.1 83.8 10.3 84.8 11V10.4H87.2V19.5C87.2 22.5 85.2 24.6 82.1 24.6C80.8 24.6 79.6 24.2 78.7 23.4C78.3 23.1 78.2 23 77.5 22.1L79.1 20.5L79.5 20.9C80.4 22 81 22.3 82.2 22.3C83.9 22.3 84.9 21.2 84.9 19.4V19.3H84.8ZM79.8 15.2C79.8 16.9 80.8 18.1 82.4 18.1C83.9 18.1 84.9 16.9 84.9 15.2C84.9 13.5 83.9 12.4 82.3 12.4C80.8 12.3 79.8 13.5 79.8 15.2V15.2ZM91.9 10.9C92.6 10.3 93.2 10.1 94.1 10.1C95.2 10.1 96.3 10.6 97 11.4C97.7 12.2 98 13.2 98 14.8V19.9H95.6V15C95.6 13.8 95.5 13.3 95.1 12.9C94.8 12.6 94.4 12.4 93.8 12.4C93.1 12.4 92.6 12.6 92.2 13.1C91.9 13.5 91.8 14.1 91.8 15.3V20H89.4V10.6H91.8V10.9H91.9ZM22 1.8C22.1 1.8 22.1 1.9 22.2 1.9L10.4 27.4H4.8C4.7 27.4 4.7 27.3 4.6 27.3L16.4 1.8H22ZM22 0.5H16.2C15.8 0.5 15.5 0.7 15.3 1L3.5 26.8C3.1 27.6 3.9 28.6 4.8 28.6H10.6C11 28.6 11.3 28.4 11.5 28.1L23.4 2.3C23.7 1.6 23 0.5 22 0.5V0.5ZM2.9 0.5H10C10.7 0.5 11.2 1.3 10.9 1.9L6 12.6C5.6 13.5 4.3 13.3 4.1 12.4L1.9 1.7C1.8 1.1 2.3 0.5 2.9 0.5Z" fill="currentColor"></path></svg>
+                </span>
+            </div>
+        </div>
+
+        <div class="overflow-hidden group">
+            <div class="flex gap-6 mt-8 group-hover:-translate-x-4 ">
+                <div class="bg-purple-100 py-3 px-4 rounded-md">
+                    <img src="/dist/img/fist pics.avif" alt="" height="600px" width="700px">
+                </div>
+                <div class="bg-purple-100 py-3 px-4 rounded-md">
+                    <img src="/dist/img/second pics.avif" alt="" height="600px" width="700px">
+                </div>
+                <div class="bg-purple-100 py-3 px-4 rounded-md">
+                    <img src="/dist/img/b980574a-7e6e-4c60-92e0-aee218d9e466_Veriff-website.avif" alt="" height="500px" width="700px">
+                </div>
+                <div class="bg-purple-100 py-3 px-4 rounded-md">
+                    <img src="img/6569dde2531ac2845a259c98_www.paddle.com_.avif" alt="" height="600px" width="700px">
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-purple-100 my-20 mx-10 py-8">
+            <div>
+                <span class="flex items-center px-4 py-6">
+                    <svg width="87" height="25" viewBox="0 0 87 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full w-full max-h-8 max-w-32"><path fill-rule="evenodd" clip-rule="evenodd" d="M80.7615 0C82.4457 0 83.8137 1.29825 83.8137 2.98125C83.8137 4.67438 82.4457 5.9625 80.7615 5.9625C79.0785 5.9625 77.7094 4.66425 77.7094 2.98125C77.7094 1.28813 79.0785 0 80.7615 0ZM21.7823 0.162V6.5925H17.6648V3.98587H7.75917V10.4242H16.7637V14.076H7.75917V20.5763H17.6659V17.9696H21.7834V24.4091H1.0148V20.5763H3.2963V3.98587H1.01367V0.162H21.7823ZM36.3038 17.2699L42.9469 0.162H45.4816L35.8482 24.5205H33.1909L23.5069 0.162H29.7225L36.3038 17.2699ZM50.7556 11.8339V3.123H63.7155C65.8845 3.123 67.122 3.48863 67.9635 4.25925C68.7139 4.94888 69.1403 5.94225 69.1403 7.27087C69.1403 8.64 68.7657 9.76612 68.004 10.5671C67.2132 11.3985 66.0274 11.844 63.7966 11.844H50.7556V11.8339ZM74.9509 24.4091L66.3818 14.5114C70.0223 14.1368 72.7808 11.4998 72.7808 7.23038C72.7808 5.07038 72.1317 3.41663 70.9043 2.26125C69.3934 0.8325 67.2042 0.162 63.7167 0.162H47.2253V24.4091H50.7544V14.796H62.4465L70.6096 24.4091H74.9509ZM83.4188 21.1433C83.4188 22.563 84.0072 23.1413 85.3144 23.8005V24.408H76.4719V23.8005C77.7803 23.1514 78.3687 22.563 78.3687 21.1433V11.8642C78.3687 10.6076 78.1459 9.918 76.4719 8.802V8.1945H83.4188V21.1433Z" fill="currentColor"></path></svg>
+                </span>
+                <div class="border-t mx-8 border-t-black flex flex-row border-b border-b-black">
+                    <span><i class='bx bxs-quote-left bx-rotate-180 py-4' ></i></span>
+                    <p class="text-2xl italic py-4 pl-6">We have such a tiny feedback loop there. where the marketing team <br> make the changes and previews them. If everything's good, they push <br> the changes.</p>
+                </div>
+                <div class="flex flex-row py-4 mx-6 items-center">
+                    <span><img src="img/7b19a0b8-efd2-453b-a81d-666e3ef79fa2_Yuriy-Mikitchenko-profile.avif" alt="" class="rounded-full"></span>
+                    <span class="px-4">Ciaran Green <br> <span class="text-sm text-neutral-500">Technical Architect</span></span>
+                </div>
+            </div>
+        </div>
+         <section></section>
+        <section>
+          <!-- <p class="bg-red-500">head</p> -->
+    
+        <div class="flex flex-col justify-center items-center mt-5">
+            <h2 class="text-black font-extrabold text-2xl">Optimize for conversion</h2>
+            <p class="text-[#797271]">Give your visitors reasons to choose your solution over others by adding</p>
+            <p class="text-[#797271]">elements that contribute to relevancy, clarity, and trust.</p>
+        </div>
+        <div class="grid grid-cols-2  md:grid-cols-2 gap-5 justify-center m-5 ">
+            <!-- first card -->
+            <div class="bg-[#f7f6f6] rounded-xl">
+                <div class="flex flex-col justify-center items-center">
+                    <h3 class="pr-36 pt-10 pb-5 text-black font-extrabold  ">Make a great first impression with the hero
+                        slice</h3>
+                    <p class="text-[#797271]">Having multiple options to choose from for your hero ensures that you</p>
+                    <p class="pr-6 text-[#797271]">can communicate your value effectively while keeping the design in
+                    </p>
+                    <p class="pr-[370px] text-[#797271]">line with the words.</p>
+                </div>
+                <div>
+                    <img src="/dist/img/firstcard.avif" alt="" class=" p-10">
+                </div>
+            </div>
+            <!-- second card -->
+            <div class="bg-[#f7f6f6] rounded-xl">
+                <div class="bg-[#f7f6f6] rounded-xl">
+                    <div class="flex flex-col justify-center items-center">
+                        <h3 class="pr-[391px] pt-10 pb-5  text-black font-extrabold">Test your CTAs</h3>
+                        <p class="text-[#797271]">Enrich your library of slices with multiple CTA options so that you
+                            can</p>
+                        <p class="pr-60 text-[#797271]">test them out and find your winner.</p>
+                    </div>
+                    <div>
+                        <img src="img/second card.avif" alt="" class=" p-10">
+                    </div>
+                </div>
+            </div>
+            <!-- third card -->
+            <div class=" rounded-xl">
+                <div class="bg-[#f7f6f6] rounded-xl">
+                    <div class="flex flex-col justify-center items-center">
+                        <h3 class="pr-52 pt-10 pb-5  text-black font-extrabold">Increase trust with testimonial slices
+                        </h3>
+                        <p class="pr-10 text-[#797271]">Let your customers speak for you by adding testimonial slices
+                        </p>
+                        <p class="text-[#797271]">can communicate your value effectively while keeping the design in</p>
+                        <p class="pr-80 text-[#797271]">throughout your pages.</p>
+                    </div>
+                    <div>
+                        <img src="img/third card.avif" alt="" class=" p-10">
+                    </div>
+                </div>
+            </div>
+            <!-- fourth -->
+            <div>
+                <div class="bg-[#f7f6f6] rounded-xl">
+                    <div class="flex flex-col justify-center items-center ">
+                        <h3 class="pr-60 pt-10 pb-5  text-black font-extrabold">Connect your value to your features</h3>
+                        <p class="text-[#797271]">Make your page relevant to your visitors by adding feature slices that
+                        </p>
+                        <p class="pr-12 text-[#797271] ">showcase features connected to the value you promised them.</p>
+
+                    </div>
+                    <div>
+                        <img src="img/fourth card.avif" alt="" class=" p-10 mt-5">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bg-[#fae3fd] mx-5 mb-20">
+            <div class="m-5 p-5 text-black font-extrabold text-3xl">
+              <i class='bx bx-x'></i>
+              <span>Oxylabs</span>
+              <!-- boder-line -->
+              
+               <div class=" border-black w-[90%] border-b-[0.5px] px-10 mt-5"></div>
+
+            </div>
+          
+            <div class="flex flex-row gap-10 pb-10 pl-10">
+              <div>
+                <i class='bx bxs-quote-right'></i>
+              </div>
+          
+              <div class="text-[#797271] text-xl">
+                <p>our softrware engineers ship 10-15 slices every quarter. Our content</p>
+                <p>teams's hunger for more slices in growing, which is great, because we</p>
+                <p>create better user experiences</p>
+              </div>
+            </div>
+
+            
+              <!-- Second border line -->
+            <div class=" border-black w-[90%] border-b-[0.5px] ml-10 px-10 mb-5"></div>
+          
+            <div class="flex flex-row gap-5 text-center items-center">
+              <div class="w-16 h-16 bg-slate-500 rounded-full overflow-hidden mb-5 ml-20">
+                <img src="img/third profile.avif" alt="Team Image" class="w-full h-full object-cover">
+              </div>
+             
+              
+              <div class="pb-10">
+                <p>Arnas Juskevicius</p>
+                <p class="pr-8">Techical Lead</p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section>
+            <!--minwe-->
    <section>
     <!--first card-->
     <div class="mx-10">
    <h1 class="font-semibold text-3xl w-[23rem]">Make your website loved by humans and bots alike</h1>
-     <div class="flex gap-5 mt-5">
+     <div class="flex gap-5 leading-6 mt-5">
       <div class="bg-[#f7f7f7]  w-[29vw] h-[15rem]  ">
          <div class="mx-10 py-7">
             <span class="text-2xl ">Fast page load times</span>
             <p class="mt-11 text-[gray]">Ensure rapid content delivery to users globally
                in milliseconds with Prismic's API backed by a content delivery network (CDN).</p>
   
-         </div>
+            </div>
       </div>
       <!---->
       <div class="bg-[#f7f7f7] w-[29vw] h-[15rem]  ">
@@ -43,19 +252,32 @@
      </div>
      </div>
    </div>
-   <!--GRID CARD-->
+   <!--4 CARD-->
 <!--parent-->
    <div class=" mt-20">
     <div class="mx-10">
    <h4 class="text-blue-400 text-xl mb-5 font-semibold">How it works</h4>
    <h1 class="font-bold  text-3xl w-[25rem]">On your way to releasing more high-converting pages</h1>
-   <div class="mt-10 flex gap-3">
+   <div class="mt-10 flex gap-3 overflow-hidden leading-6">
     <div class="bg-[#e2f6fe] w-[27vw] h-[90vh] rounded-3xl"> 
         <div class="mx-10 py-10">
             <span class="bg-black text-white py-3 rounded-xl px-5  ">1</span>
              <h3 class="font-semibold mt-7">Step 1: Set up</h3>
             <p class="text-[15px] text-gray-600 mt-11 w-[17.7rem]">Developers build reusable page sections or 'slices' with your design system built into them. Then, they connect them to a specific 
                 page type that you'll use to create your page, such as page, landing page, product page, etc.</p>
+
+        </div>
+          <div class="mb-20">
+            <img loading="lazy "    src="/dist/img/developers__step-2.svg" alt="">
+        </div>
+
+    </div>
+    <!---->
+    <div class="bg-[#e2f6fe] w-[27vw] h-[90vh] rounded-3xl"> 
+        <div class="mx-10 py-10">
+            <span class="bg-black text-white py-3 rounded-xl px-5  ">2</span>
+             <h3 class="font-semibold mt-7">Step 2: Create</h3>
+            <p class="text-[15px] text-gray-600 mt-11 w-[17.7rem]">When developers sync their changes, they’ve created a custom Page Builder just for you. This means you can structure your pages however you want, making sure they always match your brand's look and feel.</p>
 
         </div>
           <div class="mb-20">
@@ -66,38 +288,22 @@
     <!---->
     <div class="bg-[#e2f6fe] w-[27vw] h-[90vh] rounded-3xl"> 
         <div class="mx-10 py-10">
-            <span class="bg-black text-white py-3 rounded-xl px-5  ">1</span>
-             <h3 class="font-semibold mt-7">Step 1: Set up</h3>
-            <p class="text-[15px] text-gray-600 mt-11 w-[17.7rem]">Developers build reusable page sections or 'slices' with your design system built into them. Then, they connect them to a specific 
-                page type that you'll use to create your page, such as page, landing page, product page, etc.</p>
+            <span class="bg-black text-white py-3 rounded-xl px-5  ">3</span>
+             <h3 class="font-semibold mt-7">Step 3: Optimize</h3>
+            <p class="text-[15px] text-gray-600 mt-11 w-[17.7rem]">As you’re adding your content to Prismic, you can decide how it shows up by using your custom-made slices. Add a bottom of the page CTA or sprinkle a bit of social proof throughout the page with testimonial slices.</p>
 
         </div>
           <div class="mb-20">
-            <img loading="lazy " class=" "    src="/dist/img/developers__step-2.svg" alt="">
+            <img loading="lazy " class=" "    src="/dist/img/developers__step-2.svg" alt="img">
         </div>
 
     </div>
     <!---->
     <div class="bg-[#e2f6fe] w-[27vw] h-[90vh] rounded-3xl"> 
         <div class="mx-10 py-10">
-            <span class="bg-black text-white py-3 rounded-xl px-5  ">1</span>
-             <h3 class="font-semibold mt-7">Step 1: Set up</h3>
-            <p class="text-[15px] text-gray-600 mt-11 w-[17.7rem]">Developers build reusable page sections or 'slices' with your design system built into them. Then, they connect them to a specific 
-                page type that you'll use to create your page, such as page, landing page, product page, etc.</p>
-
-        </div>
-          <div class="mb-20">
-            <img loading="lazy " class=" "    src="/dist/img/developers__step-2.svg" alt="">
-        </div>
-
-    </div>
-    <!---->
-    <div class="bg-[#e2f6fe] w-[27vw] h-[90vh] rounded-3xl"> 
-        <div class="mx-10 py-10">
-            <span class="bg-black text-white py-3 rounded-xl px-5  ">1</span>
-             <h3 class="font-semibold mt-7">Step 1: Set up</h3>
-            <p class="text-[15px] text-gray-600 mt-11 w-[17.7rem]">Developers build reusable page sections or 'slices' with your design system built into them. Then, they connect them to a specific 
-                page type that you'll use to create your page, such as page, landing page, product page, etc.</p>
+            <span class="bg-black text-white py-3 rounded-xl px-5  ">4</span>
+             <h3 class="font-semibold mt-7">Step 4: Expand</h3>
+            <p class="text-[15px] text-gray-600 mt-11 w-[17.7rem]">Embrace a simple workflow between you and your developers. Now you only need to request sections instead of major template changes. When you need a new section, the developer codes it and adds it to the Page Builder.</p>
 
         </div>
           <div class="mb-20">
@@ -111,7 +317,59 @@
 
 
    </div>
+   </div>
+
+   <!---->
+   <div class="bg-[#fbdfff] w-[90vw] mx-11 mt-7 py-6">
+
+      <div class="flex justify-between mx-11">
+     <p class="text-3xl font-semibold">How Evri Cut Their Time to Ship</p>
+      <p class="underline">Read the full story</p>
+      </div>
+      <hr class=" m-10 boder border-black ">
+      <div class="mx-11">
+        <p class="w-[47rem] text-[gray] text-2xl font-normal leading-2 italic">It’s like a loop where our designers want a page to look a certain way. We say, 'Okay, that's a website page - the content team should be able to create that.' The content team can look at it and say, 'We have almost all of that now because it's all in slices, but we just need this change to this slice or we need this variant on this slice.’
+
+        </p>
+      </div>
+      <hr class=" m-10 boder border-black ">
+
+      <div class="flex justify-between mx-11">
+       <div class="flex gap-3">
+        <img class="rounded-full w-11 " src="/dist/img/profil.avif" alt="img">
+        <div>
+            <p>Ciaran Gree</p>
+            <p>Technical Architect</p>
+        </div>
+       </div>
+          <div><img src="/dist/img/Evri-removebg-preview.png" alt="img"></div>
+      </div>
+   </div>
+    <!---->
+   <div class="mt-16 mx-11">
+
+   <p class="text-3xl font-semibold w-[25rem]">Get inspired with real examples from our own site </p>
+      <ul class="mx-11 flex  mt-16 text-gray-600 text-xl font-medium gap-16">
+        <li>Hero slice</li>
+        <li>Testimonial slice</li>
+        <li>Video slice</li>
+        <li>CTA slice</li>
+        <li>Carousel slice</li>
+      </ul>
+      <hr class="boder border-black mt-11">
+   </div>
+   <!---->
+   <div class="mx-11 mt-6 ">
+    <img class="w-[48rem] rounded-3xl border border-[#fff] shadow-2xl" src="/dist/img/pic b4 footer.avif" alt="">
    </div>
    </section>
 </body>
 </html>
+
+         
+
+        </section>
+    </main>
+    
+
+    
